@@ -1,15 +1,15 @@
 import React from 'react'
 import { Item } from './Item'
-import { HiAcademicCap } from "react-icons/hi2";
+import {items} from '../data/items'
+
 
 
 export const Items = () => {
   return (
     <div className='flex flex-wrap justify-center'>
-      <Item description='ad' image={<HiAcademicCap />} name="aa" price='19'/>
-      <Item description='ad' image={<HiAcademicCap />} name="aa" price='19'/>
-      <Item description='ad' image={<HiAcademicCap />} name="aa" price='19'/>
-      <Item description='ad' image={<HiAcademicCap />} name="aa" price='19'/>
+      {items.map((item) => {
+        return <Item key={item.id} image={item.image} description={item.description} name={item.name} price={item.price}/>
+      })}
     </div>
   )
 }
