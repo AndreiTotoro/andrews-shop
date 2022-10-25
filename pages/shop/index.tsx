@@ -18,7 +18,7 @@ function Shop() {
   return (
     <div>
     <Navbar />
-    <Categories setCategory = {setCategory} setShowAll = {setShowAll}/>
+    <Categories showAll={showAll} setCategory = {setCategory} setShowAll = {setShowAll} categoryState = {category}/>
     <Items itemsToShow = {itemsToShow}/>
     </div>
   )
