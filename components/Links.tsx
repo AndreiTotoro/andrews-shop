@@ -12,9 +12,9 @@ export const Links:FC<Props> = ({links}) => {
     <div className='flex gap-2 text-white'>
       {links.map((link) => {
         if(link.url == router.pathname){
-          return <Link href={link.url} key={link.id}><a className='text-black underline'>{link.text}</a></Link>
+          return <Link href={link.url} key={link.id}><a className='text-black underline hover:bg-white hover:rounded-lg'>{link.text}</a></Link>
         } else{
-          return <Link href={link.url} key={link.id}>{link.text}</Link>
+          return <Link href={link.url} key={link.id}><a className="hover:bg-white hover:text-black hover:rounded-lg">{link.text}</a></Link>
         }
         
       })}
