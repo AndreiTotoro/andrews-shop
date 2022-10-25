@@ -24,7 +24,7 @@ export const Categories:FC<Props> = ({setCategory, setShowAll, showAll, category
 
   if(showAll == true){
     return (
-      <div className='flex justify-around items-center bg-slate-500 p-1'>
+      <div className='flex justify-around items-center bg-blue-600 p-1'>
         <button onClick={() => changeToAll()} className="bg-white rounded-md p-1 px-4 shadow-md">All</button>
         {categories.map((category) => {
         return <button key={uniqid()} onClick={() => changeCategory(category)} className="bg-red-400 rounded-md p-1 px-4 shadow-md">{category}</button>
@@ -32,7 +32,7 @@ export const Categories:FC<Props> = ({setCategory, setShowAll, showAll, category
     )
   } 
   return (
-    <div className='flex justify-around items-center bg-slate-500 p-1'>
+    <div className='flex justify-around items-center bg-blue-600 p-1'>
       <button onClick={() => changeToAll()} className="bg-red-400 rounded-md p-1 px-4 shadow-md">All</button>
       {categories.map((category) => {
         if(category == categoryState){

@@ -9,7 +9,7 @@ interface Props{
 
 export const Item:FC<Props> = ({image, name, price, description}) => {
   return (
-    <div className='flex flex-col bg-gray-400 basis-1/5 items-center rounded-md m-4 py-4'>
+    <div className='flex flex-col bg-white basis-1/5 items-center rounded-md m-4 py-4'>
       <div className='text-6xl'>{image}</div>
       <p className='text-2xl'>{name}</p>
       <p className='text-md'>${price}</p>
