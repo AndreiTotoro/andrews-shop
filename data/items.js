@@ -13,6 +13,7 @@ export const items = [
 		name: 'Cap',
 		price: 300,
 		description: 'Highest quality cheese',
+		category: 'Clothing',
 	},
 	{
 		id: 2,
@@ -20,6 +21,7 @@ export const items = [
 		name: 'Scissors',
 		price: 500,
 		description: 'Highest quality cheese',
+		category: 'House',
 	},
 	{
 		id: 3,
@@ -27,6 +29,7 @@ export const items = [
 		name: 'Chanel Bag',
 		price: 100,
 		description: 'Highest quality cheese',
+		category: 'Clothing',
 	},
 	{
 		id: 4,
@@ -34,6 +37,7 @@ export const items = [
 		name: 'Ticket',
 		price: 50,
 		description: 'Highest quality cheese',
+		category: 'Other',
 	},
 	{
 		id: 5,
@@ -41,5 +45,6 @@ export const items = [
 		name: 'Bell',
 		price: 300,
 		description: 'Highest quality cheese',
+		category: 'House',
 	},
 ];
