@@ -6,12 +6,12 @@ export const links = [
 	},
 	{
 		text: 'Shop',
-		url: '/shop/',
+		url: '/shop',
 		id: 2,
 	},
 	{
 		text: 'About Us',
-		url: '/about-us/',
+		url: '/about-us',
 		id: 3,
 	},
 ];
