@@ -1,5 +1,5 @@
 import React from 'react'
-import { Content } from '../../components/Content'
+import { Items } from '../../components/Items'
 import { Navbar } from '../../components/Navbar'
 
 
@@ -7,8 +7,7 @@ function Shop() {
   return (
     <div>
     <Navbar />
-    <Content />
-    hi
+    <Items />
     </div>
   )
 }
